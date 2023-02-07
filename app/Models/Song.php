@@ -13,6 +13,7 @@ class Song extends Model
         'artist',
         'album',
         'category',
-        'tags'
+        'tags',
+        'songurl'
     ];
 }

@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('album');
             $table->string('category');
             $table->json('tags');
+            $table->string('songurl');
             $table->timestamps();
         });
     }
